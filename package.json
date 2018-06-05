@@ -1,0 +1,15 @@
+{
+  "name": "tabris-js-snippets",
+  "version": "2.3.0",
+  "main": "app.js",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "ecstatic": "^2.1.0",
+    "tabris": "^2.3.0",
+    "union": "^0.4.4",
+    "eslint": "^4.19.1"
+  },
+  "scripts": {
+    "start": "tabris serve"
+  }
+}
