@@ -1,7 +1,7 @@
 const {CollectionView, Composite, TextView, ui} = require('tabris');
 
 let items = [
-  {title: 'Up for lunch?', sender: 'John Smith', time: '11:35'},
+  {title: 'Up for lunch?', sender: 'Johanna Smith', time: '11:35'},
   {title: 'JavaScript for mobile applications', sender: 'JavaScript Newsletter', time: '08:03'},
   {title: 'This is just a spam message', sender: 'Spammer', time: '04:32'},
   {title: 'CoolGrocery Discount Newsletter', sender: 'Local CoolGrocery', time: 'yesterday'},
