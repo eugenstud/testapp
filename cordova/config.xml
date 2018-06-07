@@ -1,11 +1,12 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="example.testapp" version="0.1.0">
-  <name>Testapp</name>
-  <description>
-    Example Tabris.js App
-  </description>
-  <author email="eugen.tarita@ms-gmbh.de">
-    Tarita
-  </author>
-  <preference name="EnableDeveloperConsole" value="$IS_DEBUG" />
+<widget id="example.testapp" version="0.1.1">
+	<name>Testapp</name>
+	<description>
+		Example Tabris.js App
+	</description>
+	<author email="eugen.tarita@ms-gmbh.de">
+		Tarita
+	</author>
+	<preference name="EnableDeveloperConsole" value="$IS_DEBUG"/>
+	<plugin name="cordova-plugin-camera" spec="^2.3.0"/>
 </widget>

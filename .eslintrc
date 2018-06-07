@@ -1,6 +1,6 @@
 {
   "parserOptions": {
-    "ecmaVersion": 5
+    "ecmaVersion": 6
   },
   "globals": {
     "tabris": false,
@@ -25,11 +25,15 @@
     "Float32Array": false,
     "Float64Array": false,
     "Promise": false,
-    "WebSocket": false
+    "WebSocket": false,
+	"require": true
   },
   "rules": {
     "no-var": "off",
     "prefer-arrow-callback": "off",
     "object-shorthand": "off"
+  },
+  "env": {
+	"commonjs": true
   }
 }
